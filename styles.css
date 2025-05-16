@@ -1,0 +1,515 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+#Navbar{
+    /* border: solid black; */
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2px 70px;
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+#Navbar .logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 4px 2px 2px 9px;
+    
+
+}
+#Navbar .logo img{
+    width: 105px;
+}
+#Navbar nav{
+    padding-left: 10px;
+    flex-grow: 1;
+}
+
+#Navbar nav a{
+    color: #262626;
+    text-decoration: none;
+    font-size: 13px;
+    padding: 15px 10px;
+}
+#Navbar nav a:hover{
+    color: black;
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+}
+
+#Navbar div {
+    /* border: solid blue; */
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    
+}
+
+#Navbar div a{
+    color: #262626;
+    text-decoration: none;
+    font-size: 13px;
+    padding: 15px 10px;
+}
+#Navbar div a:hover{
+    color: black;
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+}
+
+
+
+#slider{
+    margin-top: 5px;
+}
+
+#slider div img{
+    width: 100%;
+}
+
+#slider .insideSlider{
+    background: transparent;
+    position: absolute;
+    top: 120px;
+    left: 105px;
+    padding: 30px;
+    /* border: solid violet; */
+    width: 490px;
+}
+
+#slider .insideSlider h1{
+    font-family:"Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 500;
+    font-size: 38px;
+}
+
+#slider .insideSlider p{
+    font-family:"Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+#slider .insideSlider button{
+    font-family:"Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+
+    background-color: #0067b8;
+    color: white;
+    border: solid #0067b8;
+    border-radius: 2px;
+    padding: 8px 12px;
+    
+}
+#slider .insideSlider button:hover{
+    background-color: #045ca0;
+    border: solid #045ca0;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+    
+    
+}
+
+
+
+
+#navigatorbtn article{
+    /* border: solid green; */
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+    
+    padding: 5px;
+
+}
+
+
+
+
+
+
+
+#shop article{
+    /* border: solid black; */
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+
+}
+
+
+#shop article span p{
+    /* border: solid blue; */
+    text-align: center;
+    padding-top: 8px;    
+      
+}
+#shop article span p a{
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #0067b8 
+}
+
+#shop article span i{
+    /* border: solid green */
+    font-size: 35px;
+    padding: 86px 30px 2px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+/* ! redesign... Done yaha tak !!!!! */
+
+
+
+#cards{
+    margin: 80px 0px;
+    /* border: solid blue; */
+    padding: 0px 88px;
+
+    display: flex;
+    justify-items: center;
+    gap: 20px;
+}
+#cards article{
+    /* border: solid pink; */
+    width: 320px; 
+    position: relative;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    
+}
+#cards article .image img{
+    width: 100%;
+}
+
+
+#cards article .cardContent{
+    padding: 20px;
+    
+}
+#cards article .cardContent h3{
+    font-family:"Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+}
+
+#cards article .cardContent p{
+    font-family:"Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    /* border: yellow solid; */
+    height: 140px;
+   
+
+}
+
+#cards article .cardBtn button{
+    font-family:"Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+
+    background-color: #0067b8;
+    color: white;
+    border: solid #0067b8;
+    border-radius: 2px;
+    padding: 6px 10px;
+    margin: 16px 16px;
+
+    position: absolute;
+    z-index: 1;
+    bottom: 6px;
+    
+}
+#cards article .cardBtn button:hover{
+    background-color: #045ca0;
+    border: solid #045ca0;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+}
+
+
+
+/* !============= */
+
+
+#game div{
+    padding: 0px 88px;
+}
+
+#game div img{
+    width: 100%;
+}
+
+#game{
+    position: relative;
+    margin-bottom: 50px;
+}
+#game .insideGame{
+    color: white;
+    background: transparent;
+    position: absolute;
+    top: 120px;
+    left: 140px;
+    padding: 30px;
+    /* border: solid violet; */
+    width: 500px;
+}
+
+#game .insideGame h1{
+    
+    font-family:"Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 500;
+    font-size: 36px;
+}
+
+#game .insideGame p{
+    font-family:"Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+#game .insideGame button{
+    font-family:"Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+
+    background-color: #0067b8;
+    color: white;
+    border: solid #0067b8;
+    border-radius: 2px;
+    padding: 7px 12px;
+    
+}
+#game .insideGame button:hover{
+    background-color: #045ca0;
+    border: solid #045ca0;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+    
+    
+}
+
+
+
+#forBusiness{
+    margin-left: 80px;
+    font-family:"Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 500;
+    font-size: 36px;
+}
+
+
+#Bcards{
+    margin: 10px 0px;
+    /* border: solid greenyellow; */
+    padding: 0px 88px;
+
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+#Bcards article{
+    /* border: solid pink; */
+    width: 340px;
+    position: relative;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    
+}
+#Bcards article .Bimage img{
+    width: 100%;
+}
+
+
+#Bcards article .BcardContent{
+    padding: 20px;
+    
+}
+
+#Bcards article .BcardContent span{
+    padding: 3px 12px;
+    /* margin: 5px; */
+    background-color: #ffb900;
+    font-family:"Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    
+}
+#Bcards article .BcardContent h3{
+    margin-top: 5px;
+    font-family:"Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+}
+
+#Bcards article .BcardContent p{
+    font-family:"Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    /* border: yellow solid; */
+    height: 80px;
+    margin-bottom: 50px;
+   
+
+}
+
+#Bcards article .BcardBtn button{
+    font-family:"Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+
+    background-color: #0067b8;
+    color: white;
+    border: solid #0067b8;
+    border-radius: 2px;
+    padding: 6px 12px;
+    margin: 12px 16px;
+
+    position: absolute;
+    z-index: 1;
+    left: 5px;
+    bottom: 10px;
+
+    text-align: left;
+    
+}
+#Bcards article .BcardBtn button:hover{
+    background-color: #045ca0;
+    border: solid #045ca0;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+}
+
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!! */
+
+#iconsFM{
+    /* border: solid brown; */
+    margin: 88px;
+}
+#iconsFM .ic{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+}
+
+#iconsFM .ic span{
+    font-family:"Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    padding: 2px;
+}
+
+#iconsFM .ic span i{
+    font-size: 22px;
+    padding: 2px;
+}
+
+
+/* !!!!!!!!!!!!!!!!!!!!!!! */
+
+#end{
+    font-family:"Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #616161;
+
+    background-color: #F2F2F2;
+    /* border: solid blueviolet; */
+    display: flex;
+    gap: 120px;
+    padding: 40px 80px;
+}
+
+.endA{
+    /* border: solid red; */
+    display: flex;
+    gap: 90px;
+}
+
+.endAD{
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.endAD h4{
+    font-weight: 500;
+    /* font-size: 16px; */
+
+}
+
+.endAD p{
+    font-size: 11px;
+}
+
+.endAD p a:hover{
+    color: black;
+    border-bottom: solid 1px black;
+
+}
+/* ~~~~~~~~~~~~~~~ */
+
+#endest{
+    font-family:"Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #616161;
+    background-color: #F2F2F2;
+
+    /* border: solid red; */
+    display: flex;
+    padding: 0px 60px;
+    
+    
+}
+
+#endest .endestD{
+    /* border: solid blue; */
+    font-size: 11px;
+    padding: 10px;
+    margin-bottom: 15px;
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 20px;
+}
+#endest .endestD span i{
+    font-size: 18px;
+    padding: 4px 0px 2px 2px;
+
+}
+#endest #endestD1{
+    flex-grow: 1;
+}
+
+#endest #endestD1 span{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; 
+    gap: 2px;
+}
+#endest #endestD1 span p:hover{
+    border-bottom: solid 1px;
+}
+
+#endest #endestD2 span p:hover{
+    color: black;
+    border-bottom: solid 1px black;
+}
+
+
+
+
+
+
+
+
