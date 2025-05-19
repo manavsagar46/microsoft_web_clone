@@ -8,18 +8,23 @@ A front-end **clone of the official Microsoft website**, built purely with **HTM
 
 [Click here to view the live demo](https://microwebapp.netlify.app/)  
 
-
 ---
 
 ## 🧰 Technologies Used
 
-- **HTML5** – For structure and content
+- **HTML5** – For structure and content  
 - **CSS3** – For styling and responsive layout
 
 > ⚠️ No JavaScript or frameworks were used in this project.
 
 ---
+## 📌 Disclaimer
+This is not an official Microsoft website.
+It is a front-end practice project built to replicate the layout and design of Microsoft's homepage.
 
+All trademarks and logos are the property of Microsoft.
+
+---
 ## 📂 Project Structure
 
 ```plaintext
