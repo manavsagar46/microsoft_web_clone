@@ -19,8 +19,8 @@ A front-end **clone of the official Microsoft website**, built purely with **HTM
 
 ---
 ## 📌 Disclaimer
-This is not an official Microsoft website.
-It is a front-end practice project built to replicate the layout and design of Microsoft's homepage.
+- This is not an official Microsoft website.
+- It is a front-end practice project built to replicate the layout and design of Microsoft's homepage.
 
 All trademarks and logos are the property of Microsoft.
 
