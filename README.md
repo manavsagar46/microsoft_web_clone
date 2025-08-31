@@ -15,7 +15,7 @@ A front-end **clone of the official Microsoft website**, built purely with **HTM
 - **HTML5** – For structure and content  
 - **CSS3** – For styling and responsive layout
 
-> ⚠️ No JavaScript or frameworks were used in this project.
+> ⚠️ No JavaScript or frameworks were used in this project.❌❌
 
 ---
 ## 📌 Disclaimer
