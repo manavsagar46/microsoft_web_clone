@@ -34,3 +34,6 @@ microsoft-clone/
 ├── images/
 │   └── (logo, banners, icons, etc.)
 └── README.md
+
+---
+That is it
