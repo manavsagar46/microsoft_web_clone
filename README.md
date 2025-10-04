@@ -1,6 +1,6 @@
 # Microsoft Website Clone 🖥️
 
-A front-end **clone of the official Microsoft website**, built purely with **HTML** and **CSS**. This project replicates the layout and styling of Microsoft's homepage for educational and practice purposes..
+A front-end **clone of the official Microsoft website**, built purely with **HTML** and **CSS**. This project replicates the layout and styling of Microsoft's homepage for educational and practice purposes.
 
 ---
 
