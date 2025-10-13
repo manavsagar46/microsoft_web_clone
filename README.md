@@ -13,7 +13,7 @@ A front-end **clone of the official Microsoft website**, built purely with **HTM
 ## 🧰 Technologies Used
 
 - **HTML5** – For structure and content  
-- **CSS3** – For styling and responsive layout..
+- **CSS3** – For styling and responsive layout.
 
 > ⚠️ No JavaScript or frameworks were used in this project.❌❌❌
 
